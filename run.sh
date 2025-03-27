@@ -5,7 +5,7 @@ sudo apt update -y; sudo apt upgrade -y; sudo apt install preload -y; sudo apt i
 sudo apt install openjdk-21-jdk -y
 sudo apt update && sudo apt install nodejs npm -y
 sudo chown -R $USER $PWD
-sudo chown -R $USER usr/local/bin
+sudo chown -R $USER /usr/local
 npm install -g expo-cli -y
 npm install -g watchman -y
 
